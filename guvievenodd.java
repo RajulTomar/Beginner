@@ -12,7 +12,7 @@ class Guvievenodd
 		if (number<0)
 			System.out.println("invalid input");
 	
-		if (number%2==0)
+		else if (number%2==0)
 		System.out.println("number is even");
 	
 		else  
