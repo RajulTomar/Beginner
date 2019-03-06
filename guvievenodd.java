@@ -8,6 +8,9 @@ class Guvievenodd
 		int number;
 		System.out.println("enter the number");
 		number=sc.nextInt();
+		
+		if (number<0)
+			System.out.println("invalid input");
 	
 		if (number%2==0)
 		System.out.println("number is even");
